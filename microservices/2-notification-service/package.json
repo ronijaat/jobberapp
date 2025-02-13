@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "@elastic/elasticsearch": "^8.17.0",
-    "@ronijaat/jobebr-shared": "^0.0.7",
+    "@ronijaat/jobebr-shared": "^0.0.11",
     "amqplib": "^0.10.5",
     "dotenv": "^16.4.7",
     "ejs": "^3.1.10",

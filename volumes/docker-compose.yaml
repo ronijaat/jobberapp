@@ -123,12 +123,12 @@ services:
   gateway:
     container_name: gateway_container
     build:
-      context: ../server/1-gateway-service
+      context: ../microservices/1-gateway-service
       dockerfile: Dockerfile.dev
     restart: always
     ports:
       - 4000:4000
-    env_file: ../server/1-gateway-service/.env
+    env_file: ../microservices/1-gateway-service/.env
     environment:
       - ENABLE_APM=0
       - GATEWAY_JWT_TOKEN=d82f9febf81a4670acd08d6903abd365
